@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router";
 
 const AboutSectionCard1 = () => {
   return (
@@ -18,7 +19,7 @@ const AboutSectionCard1 = () => {
             with an elegant and lucurious style and with premium quality
             materials
           </p>
-          <p className="text-[#E58411] text-sm">More Info</p>
+          <NavLink to="/More_Info" className="text-[#E58411] text-sm">More Info</NavLink>
         </div>
       </div>
     </div>

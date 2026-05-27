@@ -4,7 +4,7 @@ import AboutSectionCard2 from "./AboutSectionCard2";
 
 const AboutSection = () => {
   return (
-    <section>
+    <section id="aboutUsSection">
       <AboutSectionCard1/>
       <AboutSectionCard2/>
     </section>

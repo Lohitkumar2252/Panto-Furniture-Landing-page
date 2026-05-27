@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const AboutSectionCard2 = () => {
   return (
@@ -26,7 +27,7 @@ const AboutSectionCard2 = () => {
           environment, using a very expensive and famous capital but at a
           relatively low price
         </p>
-        <p className="text-[#E58411] text-sm">More Info</p>
+        <NavLink to="/More_Info" className="text-[#E58411] text-sm">More Info</NavLink>
       </div>
     </div>
   );

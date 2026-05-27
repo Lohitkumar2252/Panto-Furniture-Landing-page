@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 
 const ProductsSection = () => {
   return (
-    <section className="productsSection bg-[#F7F7F7] py-10 px-5">
+    <section className="productsSection bg-[#F7F7F7] py-10 px-5" id="shopSection">
       <div className="container flex flex-col items-center gap-3">
         <h3 className="text-xl font-bold mx-auto">Best Selling Products</h3>
         <ProductsType />
