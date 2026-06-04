@@ -40,7 +40,7 @@ const ProductcsScroller = (props) => {
         {props.filteredProducts.map((value) => {
           
           return (
-            <SwiperSlide key={value.id} className=" border">
+            <SwiperSlide key={value.id}>
               <div className="p-3 min-w-62.5 whitespace-nowrap w-full h-full flex flex-col justify-between bg-white rounded-xl shadow-2xs">
                 <div className="img w-full">
                   
